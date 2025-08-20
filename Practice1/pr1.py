@@ -91,12 +91,12 @@
 
 # print(random.randint(1, 10))
 # ------------------------------------------------------------------------------------
-with open("sample.txt", "w") as f:
-        f.write("Hello, file!")
+# with open("sample.txt", "w") as f:
+#         f.write("Hello, file!")
 
-with open("sample.txt", "r") as f:
-        content = f.read()
-        print(content)
+# with open("sample.txt", "r") as f:
+#         content = f.read()
+#         print(content)
 # ------------------------------------------------------------------------------------
 class Person:
         def __init__(self, name):
